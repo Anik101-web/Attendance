@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_marginRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:src="@drawable/icon_back"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="36dp"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/title_toolbar"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Title"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/subtitle_toolbar"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:text="Subtitle"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/save"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_save"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </ImageButton>
+
+
+
+</RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
